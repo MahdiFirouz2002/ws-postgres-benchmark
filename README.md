@@ -1,4 +1,3 @@
-```md
 # WebSocket → PostgreSQL Benchmark (Go)
 
 This project explores and benchmarks different strategies for ingesting
@@ -66,7 +65,6 @@ implementation.
 ## 📁 Project Structure
 
 ```
-
 .
 ├── server/        # WebSocket ingestion server
 │   └── server.go
@@ -75,7 +73,6 @@ implementation.
 │   └── client.go
 │
 └── README.md
-
 ````
 
 ---
@@ -132,5 +129,3 @@ concurrently.
 * Benchmarking database write strategies
 * Understanding WebSocket backpressure and buffering
 * Reference implementation for Go concurrency patterns
-
-```
